@@ -78,7 +78,7 @@ export default function NotificationsDashboard() {
       id: 3,
       timestamp: "17/06/2025 11:30:05",
       type: "success",
-      message: '120 postulaciones actualizadas a estado "En evaluación"',
+      message: '14 postulaciones actualizadas a estado "En evaluación"',
       projectId: 7,
       projectCode: "00004",
     },
@@ -115,7 +115,7 @@ export default function NotificationsDashboard() {
       id: 7,
       timestamp: "15/06/2025 16:00:05",
       type: "success",
-      message: '500 postulaciones actualizadas a estado "En evaluación"',
+      message: '22 postulaciones actualizadas a estado "En evaluación"',
       projectId: 6,
       projectCode: "00005",
     },
@@ -174,7 +174,7 @@ export default function NotificationsDashboard() {
     },
     {
       id: 30,
-      timestamp: "13/06/2025 00:00:01",
+      timestamp: "12/06/2025 23:59:59",
       type: "error",
       message: 'El estado "Simulado despues Finalizar Postulaciones" no se encuentra en el sistema. Intente nuevamente',
       projectId: 6,
@@ -182,7 +182,7 @@ export default function NotificationsDashboard() {
     },
     {
       id: 31,
-      timestamp: "13/06/2025 00:00:01",
+      timestamp: "12/06/2025 23:59:58",
       type: "error",
       message: 'El estado "En evaluacion" no se encuentra en el sistema. Intente nuevamente',
       projectId: 6,
@@ -190,7 +190,7 @@ export default function NotificationsDashboard() {
     },
     {
       id: 32,
-      timestamp: "13/06/2025 00:00:01",
+      timestamp: "12/06/2025 23:59:57",
       type: "error",
       message: "No se encontró ninguna postulacion para el proyecto, no se puede finalizar",
       projectId: 6,
@@ -198,7 +198,7 @@ export default function NotificationsDashboard() {
     },
     {
       id: 33,
-      timestamp: "13/06/2025 00:00:01",
+      timestamp: "12/06/2025 23:59:56",
       type: "error",
       message: "No se encontró el estado para el proyecto",
       projectId: 6,
@@ -298,7 +298,7 @@ export default function NotificationsDashboard() {
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-lg shadow-xl w-full max-w-2xl h-[85vh] flex flex-col">
             {/* Header */}
-            <div className="flex items-center justify-between p-6 border-b border-gray-200 flex-shrink-0">
+            <div className="flex items-center justify-between p-6 border-b flex-shrink-0">
               <h2 className="text-2xl font-semibold text-gray-800">Notificaciones</h2>
               <div className="flex items-center gap-2">
                 <Button variant="ghost" size="icon" className="text-gray-500" onClick={markAllAsRead}>
@@ -329,7 +329,7 @@ export default function NotificationsDashboard() {
                   {displayLogs.map((log) => (
                     <div
                       key={log.id}
-                      className={`flex items-start gap-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50 ${
+                      className={`flex items-start gap-3 p-3 border rounded-lg hover:bg-gray-50 ${
                         isOldNotification(log.timestamp) || readNotifications.has(log.id) ? "bg-gray-100" : "bg-white"
                       }`}
                     >
@@ -357,7 +357,7 @@ export default function NotificationsDashboard() {
             </div>
 
             {/* Footer - botón más pequeño */}
-            <div className="p-4 border-t border-gray-200 text-center flex-shrink-0">
+            <div className="p-4 border-t text-center flex-shrink-0">
               <Button
                 variant="link"
                 size="sm"
