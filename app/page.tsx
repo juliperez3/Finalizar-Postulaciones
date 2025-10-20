@@ -64,7 +64,7 @@ export default function NotificationsDashboard() {
       type: "success",
       message: 'Proyecto cambiado a estado "En evaluación" exitosamente',
       projectId: 7,
-      projectCode: "00004",
+      projectCode: "PRJ004",
     },
     {
       id: 4,
@@ -72,7 +72,7 @@ export default function NotificationsDashboard() {
       type: "success",
       message: "Proceso de selección iniciado automáticamente",
       projectId: 7,
-      projectCode: "00004",
+      projectCode: "PRJ004",
     },
     {
       id: 3,
@@ -80,7 +80,7 @@ export default function NotificationsDashboard() {
       type: "success",
       message: '14 postulaciones actualizadas a estado "En evaluación"',
       projectId: 7,
-      projectCode: "00004",
+      projectCode: "PRJ004",
     },
     {
       id: 9,
@@ -101,7 +101,7 @@ export default function NotificationsDashboard() {
       type: "success",
       message: 'Proyecto cambiado a estado "En evaluación" exitosamente',
       projectId: 6,
-      projectCode: "00005",
+      projectCode: "PRJ005",
     },
     {
       id: 8,
@@ -109,7 +109,7 @@ export default function NotificationsDashboard() {
       type: "success",
       message: "Proceso de selección iniciado automáticamente",
       projectId: 6,
-      projectCode: "00005",
+      projectCode: "PRJ005",
     },
     {
       id: 7,
@@ -117,7 +117,7 @@ export default function NotificationsDashboard() {
       type: "success",
       message: '22 postulaciones actualizadas a estado "En evaluación"',
       projectId: 6,
-      projectCode: "00005",
+      projectCode: "PRJ005",
     },
     {
       id: 11,
@@ -138,7 +138,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: "No se encontró ningún proyecto con postulaciones a cerrar hoy",
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 16,
@@ -146,7 +146,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: "No se encontró ningun proyecto iniciado",
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 15,
@@ -154,7 +154,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: "El proyecto puesto fue dado de baja",
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 14,
@@ -162,7 +162,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: "La postulacion encontrada pertenece a otro proyecto",
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 13,
@@ -170,7 +170,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: "La postulación no se encuentra en estado Registrada",
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 20,
@@ -178,7 +178,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: 'El estado "Simulado despues Finalizar Postulaciones" no se encuentra en el sistema. Intente nuevamente',
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 21,
@@ -186,7 +186,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: 'El estado "En evaluacion" no se encuentra en el sistema. Intente nuevamente',
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 22,
@@ -194,7 +194,7 @@ export default function NotificationsDashboard() {
       type: "error",
       message: "No se encontró ninguna postulacion para el proyecto, no se puede finalizar",
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
     },
     {
       id: 23,
@@ -202,7 +202,15 @@ export default function NotificationsDashboard() {
       type: "error",
       message: "No se encontró el estado para el proyecto",
       projectId: 6,
-      projectCode: "00006",
+      projectCode: "PRJ006",
+    },
+    {
+      id: 23,
+      timestamp: "13/06/2025 00:00:01",
+      type: "error",
+      message: "Proyecto Suspendido. La cantidad de Postulaciones del Puesto no alcanzó la cantidad necesaria",
+      projectId: 7,
+      projectCode: "PRJ007",
     },
     {
       id: 29,
