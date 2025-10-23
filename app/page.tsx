@@ -307,7 +307,10 @@ export default function NotificationsDashboard() {
           <div className="bg-white rounded-lg shadow-xl w-full max-w-2xl h-[85vh] flex flex-col">
             {/* Header */}
             <div className="flex items-center justify-between p-6 border-b flex-shrink-0">
-              <h2 className="text-2xl font-semibold text-gray-800">Notificaciones</h2>
+              <div>
+                <h2 className="text-2xl font-semibold text-gray-800">Notificaciones</h2>
+                <p className="text-sm text-gray-600 mt-1">Responsable Programa de Prácticas Profesionales</p>
+              </div>
               <div className="flex items-center gap-2">
                 <Button variant="ghost" size="icon" className="text-gray-500" onClick={markAllAsRead}>
                   <Check className="h-5 w-5" />
